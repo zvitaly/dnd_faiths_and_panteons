@@ -10,7 +10,7 @@
     tools:showIn="@layout/activity_main">
 
     <RelativeLayout
-        android:id="@+id/FrameLayout1"
+        android:id="@+id/RelativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -20,8 +20,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="@string/me_text_test"
-            android:autofillHints="" />
+            android:text="@string/me_text_test"/>
 
         <Button
             android:id="@+id/button"
@@ -32,14 +31,14 @@
     </RelativeLayout>
 
     <FrameLayout
-        android:id="@+id/FrameLayout2"
+        android:id="@+id/FrameLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/faiths_and_panteons_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/me_text_test" />
+            android:layout_height="match_parent" >
+        </androidx.recyclerview.widget.RecyclerView>
     </FrameLayout>
 </LinearLayout>

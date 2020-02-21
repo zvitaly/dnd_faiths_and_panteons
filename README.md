@@ -1,1 +1,1 @@
-# dnd_faiths_and_panteons
+# DnD Faiths and Pantheons
