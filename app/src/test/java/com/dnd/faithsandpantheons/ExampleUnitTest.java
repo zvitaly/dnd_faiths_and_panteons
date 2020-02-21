@@ -1,4 +1,4 @@
-package com.dnd.faithsandpanteons;
+package com.dnd.faithsandpantheons;
 
 import org.junit.Test;
 

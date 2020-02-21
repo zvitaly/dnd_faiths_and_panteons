@@ -26,19 +26,20 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@android:string/ok"
-            android:layout_toEndOf="@+id/editText1"/>
+            android:layout_toEndOf="@+id/editText1"
+            android:text="Поиск" />
     </RelativeLayout>
 
-    <FrameLayout
-        android:id="@+id/FrameLayout1"
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/faiths_and_panteons_list"
+            android:id="@+id/faiths_and_pantheons_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
         </androidx.recyclerview.widget.RecyclerView>
-    </FrameLayout>
+    </LinearLayout>
 </LinearLayout>
